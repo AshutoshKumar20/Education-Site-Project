@@ -48,12 +48,12 @@ li {
     --bg-color: #ffffff;
     /* --bg-color: #f7fcff; */
     --heading-color: #000a19;
-    --hero-heading-color: #003b99;
-    --white-color: #ffffff;
+    /* --hero-heading-color: #003b99;
+    --white-color: #ffffff; */
     --para-color: #504e4d;
-    --bnt-hover-bg-color: #003b99;
+    /* --bnt-hover-bg-color: #003b99;
     --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    --footer-bg-color: #040d12;
+    --footer-bg-color: #040d12; */
 }
 
 /* layout */
@@ -83,7 +83,29 @@ li {
     display: flex;
     gap: 3.2rem;
 
+    & li a {
+        color: var(--heading-color);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.6rem;
+        display: inline-block;
+        position: relative;
 
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -0.3rem;
+            left: 0;
+            width: 0%;
+            border-bottom: 0.2rem solid var(--main-color);
+            transition: all 0.3s linear;
+        }
+    }
+
+    & li a:hover::after {
+        width: 100%;
+    }
 }
 
 /* end of navbar section */
