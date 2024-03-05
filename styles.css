@@ -135,3 +135,27 @@ li {
 }
 
 /* end of navbar section */
+
+/* HERO SECTION  */
+
+main {
+    background-image: linear-gradient(to top right,
+            #3d86fa,
+            #4484fb,
+            #679eff,
+            #b3d2ff,
+            #ebf3fe);
+}
+
+.section-hero--content .grid {
+    align-items: center;
+    gap: 6.4rem;
+}
+
+.section-hero--image img {
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+/* END OF HERO SECTION  */
