@@ -147,7 +147,7 @@ main {
             #ebf3fe);
 }
 
-.section-hero--content .grid {
+.section-hero .grid {
     align-items: center;
     gap: 6.4rem;
 }
