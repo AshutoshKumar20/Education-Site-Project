@@ -31,6 +31,7 @@ a {
     letter-spacing: 0.1rem;
     font-weight: 400;
     color: var(--para-color);
+    line-height: 1.5;
 }
 
 a {
@@ -141,6 +142,7 @@ li {
 /* HERO SECTION  */
 
 main {
+    position: relative;
     background-image: linear-gradient(to top right,
             #3d86fa,
             #4484fb,
@@ -149,9 +151,54 @@ main {
             #ebf3fe);
 }
 
+/* SHAPE DIVIDER  */
+.custom-shape-divider-bottom-1709661508 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709661508 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1709661508 .shape-fill {
+    fill: #FFFFFF;
+}
+
 .section-hero .grid {
     align-items: center;
     gap: 6.4rem;
+
+    & .hero-subheading {
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        color: var(--hero-heading-color);
+        word-spacing: 0.2rem;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    & .hero-heading {
+        font-family: "Jost";
+        font-size: 5.8rem;
+        font-weight: 900;
+        line-height: 1.5;
+        color: var(--hero-heading-color);
+    }
+
+    & .hero-para {
+        color: var(--white-color);
+        margin: 2rem 0 4.2rem 0;
+
+    }
 }
 
 .section-hero--image img {
@@ -159,5 +206,7 @@ main {
     height: auto;
     transform: scaleX(-1);
 }
+
+
 
 /* END OF HERO SECTION  */
