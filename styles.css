@@ -75,6 +75,10 @@ li {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-three--cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 /* navbar-section */
 
 .section-navbar {
@@ -129,6 +133,11 @@ li {
 
 .section-common--subheading {
     color: var(--heading-color);
+}
+
+.section-common--title {
+    padding: 2.4rem 0 1.2rem 0;
+    font-size: 2rem;
 }
 
 .btn {
@@ -217,6 +226,31 @@ main {
     transform: scaleX(-1);
 }
 
-
-
 /* END OF HERO SECTION  */
+
+/* ABOUT SECTION  */
+
+.section-about .about-div {
+    text-align: center;
+}
+
+.section-about .grid {
+    gap: 6.4rem;
+}
+
+.section-about img {
+    padding: 2.4rem;
+    width: 15rem;
+    height: auto;
+    background-color: var(--supporting-color);
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+
+.icons:hover>img {
+    rotate: 360deg;
+    background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+/* END OF ABOUT SECTION  */
