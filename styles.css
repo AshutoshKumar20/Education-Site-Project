@@ -313,3 +313,23 @@ main {
 }
 
 /* END OF COURSE SECTION  */
+
+/* WHY CHOOSE SECTION  */
+
+/* .section-why--choose {}  */
+
+.why-choose--div .common-title--heading {
+    width: 6rem;
+    aspect-ratio: 1;
+    color: var(--hero-heading-color);
+    background-color: var(--supporting-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    font-weight: 700;
+
+}
+
+/* END OF WHY CHOOSE SECTION  */
