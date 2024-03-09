@@ -79,6 +79,10 @@ li {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-four--cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 /* navbar-section */
 
 .section-navbar {
@@ -146,6 +150,14 @@ li {
     background-color: var(--main-color);
     color: var(--white-color);
     border-radius: 0.6rem;
+}
+
+.fa-solid {
+    padding: 2.4rem;
+    color: var(--hero-heading-color);
+    background-color: var(--supporting-color);
+    border-radius: 50%;
+    font-size: 2.4rem;
 }
 
 /* stats */
@@ -254,3 +266,23 @@ main {
 }
 
 /* END OF ABOUT SECTION  */
+
+/* COURSE SECTION  */
+
+.section-course .grid {
+    gap: 3.2rem;
+}
+
+.section-course .course-div {
+    padding: 3.2rem;
+}
+
+.section-course .course-div:hover {
+    box-shadow: var(--btn-box-shadow);
+}
+
+.course-div:nth-child(2) .icon .fa-solid {
+    background: #000;
+}
+
+/* END OF COURSE SECTION  */
