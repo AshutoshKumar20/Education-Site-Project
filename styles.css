@@ -318,7 +318,7 @@ main {
 
 /* .section-why--choose {}  */
 
-.why-choose--div .common-title--heading {
+.common-text--highlight {
     width: 6rem;
     aspect-ratio: 1;
     color: var(--hero-heading-color);
