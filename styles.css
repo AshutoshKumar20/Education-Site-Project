@@ -481,6 +481,10 @@ footer * {
 
 }
 
+footer .grid {
+    text-align: right;
+}
+
 .footer-subheading {
     font-size: 2.2rem;
     font-weight: 700;
@@ -491,6 +495,8 @@ footer * {
 }
 
 .footer-1--div {
+    text-align: left;
+
     & .social-footer--icons {
         display: flex;
         gap: 2.4rem;
