@@ -433,6 +433,9 @@ figure {
     margin-bottom: 5rem;
     border-radius: .2rem;
     padding: 0 3.2rem;
+    position: relative;
+    bottom: -15rem;
+    background-color: var(--white-color);
 
     & .grid {
         align-items: center;
@@ -468,6 +471,14 @@ figure {
 
 /* FOOTER SECTION STARTED  */
 
+footer {
+    background-color: var(--footer-bg-color);
+    padding-top: 15rem;
+}
 
+footer * {
+    color: var(--white-color);
+
+}
 
 /* FOOTER SECTION ENDED  */
