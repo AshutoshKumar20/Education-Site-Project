@@ -113,7 +113,7 @@ li {
     & li a {
         color: var(--heading-color);
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 900;
         font-size: 1.6rem;
         display: inline-block;
         position: relative;
