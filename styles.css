@@ -531,6 +531,10 @@ figure {
     margin-bottom: 3.2rem;
 }
 
+.section-contact .grid {
+    gap: 6.4rem;
+}
+
 label {
     display: block;
 }
