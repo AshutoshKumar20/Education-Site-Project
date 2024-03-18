@@ -533,6 +533,7 @@ figure {
 
 .section-contact .grid {
     gap: 6.4rem;
+    align-items: center;
 }
 
 label {
