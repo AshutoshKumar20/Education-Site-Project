@@ -613,3 +613,24 @@ footer .grid {
 }
 
 /* FOOTER SECTION ENDED  */
+
+/* SCROLLBAR SECTION  */
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--supporting-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--heading-color);
+}
+
+/* SCROLLBAR SECTION ENDED  */
