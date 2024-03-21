@@ -558,6 +558,10 @@ textarea {
     border: none;
 }
 
+input:focus-visible {
+    outline: 0.2rem solid var(--bnt-hover-bg-color);
+}
+
 /* CONTACT SECTION ENDED  */
 
 /* FOOTER SECTION STARTED  */
@@ -634,3 +638,9 @@ footer .grid {
 }
 
 /* SCROLLBAR SECTION ENDED  */
+
+/* MEDIA QUERIES SECTION  */
+
+
+
+/* MEDIA QUERIES SECTION ENDED  */
