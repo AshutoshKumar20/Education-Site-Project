@@ -645,6 +645,10 @@ footer .grid {
     html {
         font-size: 56.25%;
     }
+
+    .section-hero img {
+        width: 90%;
+    }
 }
 
 /* MEDIA QUERIES SECTION ENDED  */
