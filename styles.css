@@ -655,12 +655,45 @@ footer .grid {
     .section-course .grid-four--cols {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+
+    .section-why--choose {
+        .choose-left--div {
+            order: 2;
+        }
+
+        .choose-right--div {
+            order: 3;
+        }
+
+        & .choose-center--div {
+            order: 1;
+
+            & figure::before {
+                width: 0;
+                height: 0;
+                background-color: transparent;
+                padding: 0;
+            }
+
+            & figure::after {
+                width: 0;
+                height: 0;
+                background-color: transparent;
+                padding: 0;
+            }
+        }
+    }
 }
 
 @media (width <=1220px) {
     html {
         font-size: 54%;
     }
+
+    :is(.section-about, .section-blog, .section-course, .section-contact, .section-contact--homepage, .section-why--choose) .grid {
+        gap: 6.4rem;
+    }
+
 }
 
 @media (width <=998px) {
