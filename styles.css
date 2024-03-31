@@ -752,6 +752,17 @@ footer .grid {
             margin-bottom: 2.4rem;
         }
     }
+
+    .section-why--choose {
+        & img {
+            width: 30%;
+        }
+
+        & .text-align--right .why-choose--div {
+            align-items: start;
+            text-align: left;
+        }
+    }
 }
 
 /* MEDIA QUERIES SECTION ENDED  */
